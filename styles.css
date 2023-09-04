@@ -13,6 +13,10 @@ body{
     padding: 0;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
 .mobile-menu{
     max-width: 320px;
     min-height: 1024px;
@@ -30,6 +34,7 @@ button{
     justify-content: space-between;
     padding-left: 10px;
     padding-bottom: 30px;
+    padding-right: 20px;
 }
 
 .menu-header__logo-button{
@@ -114,4 +119,14 @@ button{
 
 .menu-language .active{
     color:#7E7E82;
+}
+
+a:hover{
+    transition: 0.3s;
+    color: #7E7E82;
+    opacity: 0.8
+}
+
+a .active:hover{
+    opacity: 1;
 }
